@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-family: 'Poiret One', sans-serif;
+}
+.nav_item{
+    font-family: 'Montserrat', sans-serif;
+}
+.details{
+    font-family: 'Lato', sans-serif;
+}
+
+/* section start here */
+.section_title{
+    font-family: 'Cabin Condensed', sans-serif;
+}
+.section3_p{
+    position: relative;
+}
+
+.section3_p::after{
+content: '';
+position: absolute;
+width: 20px;
+background-color: white;
+height: 20px;
+border: 2px solid #dee2e6;
+right: 45px;
+bottom: -11px;
+transform: rotate(45deg);
+border-top: none;
+border-left: none;
+}
